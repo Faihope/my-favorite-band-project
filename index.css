@@ -1,63 +1,53 @@
-h2{
-    margin: 0px;
-    font-family: fantasy;
-    font-style: italic;
-    background-color: blanchedalmond;
-    text-align: center;
-}
-h1{
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: blue;
-    background-color: salmon;
-    font-style: normal;
-    text-align: center;
-}
-ul{
-    
-    border: 3px double grey;
-    overflow: auto;
-    background-color: violet;
-    padding: none;
-    margin: 1px;
-    font-family: monospace;
-    font-style: oblique;
-    font-size: 20px;
-    text-align: center;
-    display: inline;
-
-}
-ol{
-    color:chocolate;
-    font-family: cursive;
-    font-weight: 700;
-    font-style: inherit;
-    font-size: 30px;
-    padding: 0px;
-    border: 3px solid black;
-    margin: 1px;
-    text-align: center;
-
-}
 p{
-    font: 1em sans-serif;
-    font-size: 25px;
-    display: inline;
-    font-family: serif;
-    font-style: normal;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: normal
+    
+    ;
+}
+h1 ,h2{
+    text-align: center;
+    background-color: navajowhite;
+    color: chocolate;
+    padding: 0px;
+    margin: 1px;
+    border: 5px;
+
+    
     
 }
 
+li{
+    background-color: cornsilk;
+    color: black;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    padding: none;
+    margin: 0 10% 0 10%;
+
+}
 body{
     background-color: beige;
+    font-size: large;
+    font-weight: normal;
+}
+span{
+    color: chartreuse;
+    font-style: italic;
+}
+.container{
+    background-color: cornsilk;
     display: block;
-    font-style: normal;
-    font-weight: 700;
-    font-family: monospace;
+    margin: 0 10% 0 10%px;
+    border: 2px;
+    width: 10%;
+    
 }
-h1{
-    display: block;  
-    font-family: unset;
+.column{
+    float: left;
+   width: 25%;
+   padding: 10px;
 }
-
-
